@@ -9,8 +9,15 @@ License: MIT + file LICENSE
 URL: https://github.com/FrankLef/flrpkgTools
 BugReports: https://github.com/FrankLef/flrpkgTools/issues
 Imports: 
+    beepr,
+    checkmate,
     cli,
-    rlang
+    crayon,
+    dplyr,
+    logging,
+    rlang,
+    RODBC,
+    tidyselect
 Suggests: 
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
