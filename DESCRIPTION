@@ -4,7 +4,7 @@ Version: 0.0.0.9000
 Authors@R: 
     person("François", "Lefebvre", , "flefebvre01@hotmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: provide custom function for general use by Ephel.
+Description: Provide custom function for general use by Ephel.
 License: MIT + file LICENSE
 URL: https://github.com/FrankLef/flrpkgTools
 BugReports: https://github.com/FrankLef/flrpkgTools/issues

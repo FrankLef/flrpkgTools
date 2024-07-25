@@ -16,9 +16,10 @@ knitr::opts_chunk$set(
 # flrpkgTools
 
 <!-- badges: start -->
+[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 <!-- badges: end -->
 
-The goal of `flrpkgTools` is to ...
+The goal of `flrpkgTools` is to provide custom functions and objects for general use by Ephel.
 
 ## Installation
 
