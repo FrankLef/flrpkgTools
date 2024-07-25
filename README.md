@@ -6,11 +6,11 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of flrpkgTools is to …
+The goal of `flrpkgTools` is to …
 
 ## Installation
 
-You can install the development version of flrpkgTools from
+You can install the development version of `flrpkgTools` from
 [GitHub](https://github.com/) with:
 
 ``` r
