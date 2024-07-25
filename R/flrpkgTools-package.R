@@ -1,6 +1,8 @@
 #' Tools Used by Ephel
 #'
-#' Tools used by Ephel
+#' Tools used by Ephel.
+#'
+#' Custom functions and objects for general use by Ephel.
 #'
 #' @section flrpkgTools functions:
 #' The functions ...

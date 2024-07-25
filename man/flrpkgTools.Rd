@@ -6,7 +6,10 @@
 \alias{flrpkgTools}
 \title{Tools Used by Ephel}
 \description{
-Tools used by Ephel
+Tools used by Ephel.
+}
+\details{
+Custom functions and objects for general use by Ephel.
 }
 \section{flrpkgTools functions}{
 
