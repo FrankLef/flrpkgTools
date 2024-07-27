@@ -13,11 +13,9 @@ Imports:
     checkmate,
     cli,
     crayon,
-    dplyr,
     logging,
     rlang,
-    RODBC,
-    tidyselect
+    RODBC
 Suggests: 
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
