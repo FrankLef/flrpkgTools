@@ -10,7 +10,7 @@
 #' @docType package
 #' @name flrpkgTools
 #'
-#' @importFrom rlang .data
+#' @importFrom rlang .data :=
 #'
 #' @keywords internal
 "_PACKAGE"
