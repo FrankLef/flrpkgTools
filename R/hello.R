@@ -8,6 +8,9 @@
 #' @param msg Message to print.
 #'
 #' @return Message, invisibly.
+#'
+#' @import cli rlang
+#'
 #' @export
 #'
 #' @examples
