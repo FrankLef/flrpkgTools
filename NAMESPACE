@@ -2,6 +2,7 @@
 
 export(expm1s)
 export(expm1s10)
+export(expm1s10_ceil)
 export(hello)
 export(load_access)
 export(log1ps)

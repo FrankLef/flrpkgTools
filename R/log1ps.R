@@ -11,7 +11,7 @@
 #' @return Numeric vector.
 #' @export
 #'
-#' @seealso expm1s
+#' @seealso [expm1s]
 #'
 #' @examples
 #' x <- c(-100, -10, -1, -0.1, 0, 0.1, 1, 10, 100)
@@ -37,7 +37,7 @@ log1ps <- function(x, base = exp(1)) {
 #' @return Numeric vector.
 #' @export
 #'
-#' @seealso log1ps
+#' @seealso [log1ps]
 #'
 #' @examples
 #' x <- c(-2, -1, -1 / 10, -0.1 / 10, 0, 0.1 / 10, 1 / 10, 1, 2)
@@ -99,4 +99,28 @@ expm1s10 <- function(x) {
   checkmate::assert_numeric(x)
 
   expm1s(x, base = 10L)
+}
+
+#' Signed \code{expm1s} With Base 10 rounded to the next upper integer
+#'
+#' Signed \code{expm1s} with base 10 rounded to the next upper integer.
+#'
+#' Compute \code{ceiling(expm1s10(x))}. This is usually used when converting
+#' \code{log1ps10} for labels of axis in a plot. Otherwise we get, for example,
+#' 999 instead of 1000 on the axis.
+#'
+#' @inheritParams expm1s10
+#'
+#' @return Numeric vector.
+#' @export
+#'
+#' @seealso [expm1s10]
+#'
+#' @examples
+#' x <- c(-2, -1, -1 / 10, -0.1 / 10, 0, 0.1 / 10, 1 / 10, 1, 2)
+#' y <- expm1s10_ceil(x)
+expm1s10_ceil <- function(x) {
+  checkmate::assert_numeric(x)
+
+  ceiling(expm1s10(x))
 }

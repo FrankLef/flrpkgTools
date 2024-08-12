@@ -18,6 +18,6 @@ You can install the development version of `flrpkgTools` from
 [GitHub](https://github.com/) with:
 
 ``` r
-# install.packages("pak")
-# pak::pkg_install("https://github.com/FrankLef/flrpkgTools.git")
+install.packages("pak")
+pak::pkg_install("https://github.com/FrankLef/flrpkgTools.git")
 ```

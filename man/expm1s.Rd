@@ -28,5 +28,5 @@ y <- expm1s(x, base = 10)
 stopifnot(isTRUE(all.equal(x, log1ps(y, base = 10))))
 }
 \seealso{
-log1ps
+\link{log1ps}
 }

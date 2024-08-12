@@ -9,8 +9,6 @@
 #'
 #' @return Message, invisibly.
 #'
-#' @import cli rlang
-#'
 #' @export
 #'
 #' @examples
