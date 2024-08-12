@@ -19,5 +19,5 @@ You can install the development version of `flrpkgTools` from
 
 ``` r
 # install.packages("pak")
-pak::pkg_install("https://github.com/FrankLef/flrpkgTools.git")
+# pak::pkg_install("https://github.com/FrankLef/flrpkgTools.git")
 ```
